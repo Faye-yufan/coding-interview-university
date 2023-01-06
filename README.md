@@ -631,6 +631,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [x] resize(new_capacity) // private function
             - when you reach capacity, resize to double the size
             - when popping an item, if size is 1/4 of capacity, resize to half
+  	- my version [here](https://github.com/Faye-yufan/build-data-structure/blob/main/src/MyVector.java)
     - [x] Time
         - O(1) to add/remove at end (amortized for allocations for more space), index, or update
         - O(n) to insert/remove elsewhere
@@ -670,6 +671,7 @@ if you can identify the runtime complexity of different algorithms. It's a super
         - [x] value_n_from_end(n) - returns the value of the node at nth position from the end of the list
         - [x] reverse() - reverses the list
         - [x] remove_value(value) - removes the first item in the list with this value
+        - my version [here](https://github.com/Faye-yufan/build-data-structure/blob/main/src/MyLinkedList.java)
     - [ ] Doubly-linked List
         - [Description (video)](https://www.coursera.org/lecture/data-structures/doubly-linked-lists-jpGKD)
         - No need to implement
@@ -680,9 +682,9 @@ if you can identify the runtime complexity of different algorithms. It's a super
     - [x] Will not implement. Implementing with array is trivial
 
 - ### Queue
-    - [ ] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
-    - [ ] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
-    - [ ] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
+    - [x] [Queue (video)](https://www.coursera.org/lecture/data-structures/queues-EShpq)
+    - [x] [Circular buffer/FIFO](https://en.wikipedia.org/wiki/Circular_buffer)
+    - [x] [[Review] Queues in 3 minutes (video)](https://youtu.be/D6gu-_tmEpQ)
     - [ ] Implement using linked-list, with tail pointer:
         - enqueue(value) - adds value at position at tail
         - dequeue() - returns value and removes least recently added element (front)
